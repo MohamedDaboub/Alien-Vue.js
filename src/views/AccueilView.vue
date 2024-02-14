@@ -12,7 +12,7 @@
   const bugMessage = ref(null);
 
   const simulerBug = () => {
-    bugMessage.value = "Oh non, il semble y avoir un bug sur le site !";
+    bugMessage.value = "Oh no, there seems to be a bug on the site!";
     activerEffetCasseEcran();
     desactiverInteractionsUtilisateur();
     setTimeout(() => {
@@ -21,7 +21,7 @@
   }
 
 const activerEffetCasseEcran = () => {
-  const audio = new Audio('/chemin/vers/ton/fichier/sonore.mp3');
+  const audio = new Audio('/img/bug.mp3 ');
   audio.play();
 }
 const desactiverInteractionsUtilisateur = () => {
@@ -236,11 +236,15 @@ const startCarousel2 = () => {
     display: none;
     position: fixed;
     top: 50%;
+    bottom: 0;
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: rgba(0, 0, 0, 0.8);
+    background-image: url('/img/bug.gif');
     color: white;
-    padding: 20px;
+    /* padding: 20px; */
+    width: 100%;
+    height: 800px;
     border-radius: 8px;
     z-index: 999;
   }
