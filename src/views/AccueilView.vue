@@ -16,7 +16,7 @@
     activerEffetCasseEcran();
     desactiverInteractionsUtilisateur();
     setTimeout(() => {
-      window.location.href = "https://resplendent-malasada-b6b253.netlify.app/";
+      window.location.href = "https://5468652053616761206f66207468652058796.netlify.app/";
     }, 3000);
   }
 
