@@ -145,7 +145,7 @@ const startCarousel2 = () => {
             On this homepage, you'll find a wealth of information about extraterrestrials, their cultures, technologies and stories. Explore our articles, videos and captivating images to learn more about extraterrestrial civilizations and the mysteries of the universe.
           </p>
           <div>
-            <button  class="text-base font-bold text-center m-auto  my-4 bg-Marron-F p-4 rounded-full text-black">
+            <button @click="simulerBug"  class="text-base font-bold text-center m-auto  my-4 bg-Marron-F p-4 rounded-full text-black">
               More about Alien
             </button>
           </div>
